@@ -1,0 +1,26 @@
+{
+  "name": "silver",
+  "version": "1.0.0",
+  "description": "* 亮感层级\r * 鲜明对比",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browesersync":"browser-sync start --server --files '**/*.css, **/*.html'",
+    "style":"stylus -w UI/index.styl -o UI/index.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilverLeaves/silver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilverLeaves/silver/issues"
+  },
+  "homepage": "https://github.com/SilverLeaves/silver#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "stylus": "^0.54.5"
+  }
+}

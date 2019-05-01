@@ -1,0 +1,40 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+.button {
+  padding: 0.4em;
+  min-width: 2em;
+  min-height: 1em;
+  line-height: 1em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0.3em;
+}
+.h {
+  font-weight: 900;
+}
+.warning {
+  color: #000;
+  background-color: #a4da89;
+}
+.l1 {
+  font-size: 35.831807999999995px;
+}
+.l2 {
+  font-size: 29.85984px;
+}
+.l3 {
+  font-size: 24.8832px;
+}
+.l4 {
+  font-size: 20.736px;
+}
+.l5 {
+  font-size: 14.399999999999999px;
+}
+.l6 {
+  font-size: 12px;
+}
