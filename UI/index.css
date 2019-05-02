@@ -3,7 +3,7 @@
   padding: 0.3em;
   margin: 0.4em;
   border-radius: 0.3em;
-  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
 }
 .button {
   min-width: 2em;
@@ -36,4 +36,34 @@
 }
 .l6 {
   font-size: 14px;
+}
+input[type=checkbox] {
+  display: none;
+}
+input[type=radio] {
+  display: none;
+}
+input[type=checkbox]+span {
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  border-radius: 4px;
+  background-color: #808080;
+}
+input[type=checkbox]:checked+span {
+  background-color: #409eff;
+}
+input[type=radio]+span {
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  border-radius: 1em;
+  background-color: #808080;
+}
+input[type=radio]:checked+span {
+  background-color: #409eff;
 }

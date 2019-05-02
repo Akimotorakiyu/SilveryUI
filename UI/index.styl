@@ -2,8 +2,8 @@
     border: 0em;
     padding: 0.3em;
     margin: 0.4em;
-    border-radius: 0.3em
-    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    border-radius: 0.3em;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
 }
 
 .button {
@@ -12,37 +12,76 @@
     line-height: 1em;
     display: inline-block;
     text-align: center;
-    
 }
 
-.h{
-    font-weight: 900
-    
-    }
+.h {
+    font-weight: 900;
+}
 
 .warning {
     color: black;
-    background-color:#a4da89;
+    background-color: #a4da89;
 }
 
-base-size=14
-scale=1.2
+base-size = 14;
+scale = 1.2;
 
-.l1{
-    font-size: scale**6*base-size px
+.l1 {
+    font-size: (scale ** 6 * base-size) px;
 }
-.l2{
-    font-size: scale**5*base-size px
+
+.l2 {
+    font-size: (scale ** 5 * base-size) px;
 }
-.l3{
-    font-size: scale**4*base-size px
+
+.l3 {
+    font-size: (scale ** 4 * base-size) px;
 }
-.l4{
-    font-size: scale**3*base-size px
+
+.l4 {
+    font-size: (scale ** 3 * base-size) px;
 }
-.l5{
-    font-size: scale**1*base-size px
+
+.l5 {
+    font-size: (scale ** 1 * base-size) px;
 }
-.l6{
-    font-size: scale**0*base-size px
+
+.l6 {
+    font-size: (scale ** 0 * base-size) px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=checkbox]+span {
+    margin: 0em;
+    padding: 0em;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    background-color: gray;
+}
+
+input[type=checkbox]:checked+span {
+    background-color: #409eff;
+}
+
+input[type=radio]+span {
+    margin: 0em;
+    padding: 0em;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background-color: gray;
+}
+
+input[type=radio]:checked+span {
+    background-color: #409eff;
 }
