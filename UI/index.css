@@ -67,3 +67,36 @@ input[type=radio]+span {
 input[type=radio]:checked+span {
   background-color: #409eff;
 }
+.gray00-bg {
+  background-color: #000;
+}
+.gray10-bg {
+  background-color: #1b1b1b;
+}
+.gray20-bg {
+  background-color: #303030;
+}
+.gray30-bg {
+  background-color: #474747;
+}
+.gray40-bg {
+  background-color: #5e5e5e;
+}
+.gray50-bg {
+  background-color: #777;
+}
+.gray60-bg {
+  background-color: #919191;
+}
+.gray70-bg {
+  background-color: #ababab;
+}
+.gray80-bg {
+  background-color: #c6c6c6;
+}
+.gray90-bg {
+  background-color: #e2e2e2;
+}
+.gray100-bg {
+  background-color: #fff;
+}
