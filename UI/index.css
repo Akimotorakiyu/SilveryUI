@@ -1,7 +1,7 @@
 * {
   border: 0em;
-  padding: 0.3em;
-  margin: 0.4em;
+  padding: 0.4em;
+  margin: 0.2em;
   border-radius: 0.3em;
   font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
 }
@@ -20,22 +20,22 @@
   background-color: #a4da89;
 }
 .l1 {
-  font-size: 41.803776px;
+  font-size: 32px;
 }
 .l2 {
-  font-size: 34.836479999999995px;
+  font-size: 27.857618025475972px;
 }
 .l3 {
-  font-size: 29.0304px;
+  font-size: 24.25146506416637px;
 }
 .l4 {
-  font-size: 24.192px;
+  font-size: 21.112126572366307px;
 }
 .l5 {
-  font-size: 16.8px;
+  font-size: 18.37917367995256px;
 }
 .l6 {
-  font-size: 14px;
+  font-size: 16px;
 }
 input[type=checkbox] {
   display: none;
@@ -50,7 +50,7 @@ input[type=checkbox]+span {
   height: 1em;
   width: 1em;
   border-radius: 4px;
-  background-color: #808080;
+  background-color: #5e5e5e;
 }
 input[type=checkbox]:checked+span {
   background-color: #409eff;
@@ -62,41 +62,41 @@ input[type=radio]+span {
   height: 1em;
   width: 1em;
   border-radius: 1em;
-  background-color: #808080;
+  background-color: #5e5e5e;
 }
 input[type=radio]:checked+span {
   background-color: #409eff;
 }
-.gray00-bg {
+.silver00-bg {
   background-color: #000;
 }
-.gray10-bg {
+.silver10-bg {
   background-color: #1b1b1b;
 }
-.gray20-bg {
+.silver20-bg {
   background-color: #303030;
 }
-.gray30-bg {
+.silver30-bg {
   background-color: #474747;
 }
-.gray40-bg {
+.silver40-bg {
   background-color: #5e5e5e;
 }
-.gray50-bg {
+.silver50-bg {
   background-color: #777;
 }
-.gray60-bg {
+.silver60-bg {
   background-color: #919191;
 }
-.gray70-bg {
+.silver70-bg {
   background-color: #ababab;
 }
-.gray80-bg {
+.silver80-bg {
   background-color: #c6c6c6;
 }
-.gray90-bg {
+.silver90-bg {
   background-color: #e2e2e2;
 }
-.gray100-bg {
+.silver100-bg {
   background-color: #fff;
 }

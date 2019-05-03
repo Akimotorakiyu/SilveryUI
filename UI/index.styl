@@ -1,7 +1,7 @@
 * {
     border: 0em;
-    padding: 0.3em;
-    margin: 0.4em;
+    padding: 0.4em;
+    margin: 0.2em;
     border-radius: 0.3em;
     font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
 }
@@ -23,31 +23,31 @@
     background-color: #a4da89;
 }
 
-base-size = 14;
-scale = 1.2;
+base-size = 16;
+scale = 1/5;
 
 .l1 {
-    font-size: (scale ** 6 * base-size) px;
+    font-size: (2 ** (5*scale) * base-size) px;
 }
 
 .l2 {
-    font-size: (scale ** 5 * base-size) px;
+    font-size: (2 ** (4*scale) * base-size) px;
 }
 
 .l3 {
-    font-size: (scale ** 4 * base-size) px;
+    font-size: (2 ** (3*scale) * base-size) px;
 }
 
 .l4 {
-    font-size: (scale ** 3 * base-size) px;
+    font-size: (2 ** (2*scale) * base-size) px;
 }
 
 .l5 {
-    font-size: (scale ** 1 * base-size) px;
+    font-size: (2 ** (1*scale) * base-size) px;
 }
 
 .l6 {
-    font-size: (scale ** 0 * base-size) px;
+    font-size: (2 ** (0*scale) * base-size) px;
 }
 
 input[type=checkbox] {
@@ -65,7 +65,7 @@ input[type=checkbox]+span {
     height: 1em;
     width: 1em;
     border-radius: 4px;
-    background-color: gray;
+    background-color: #5e5e5e;
 }
 
 input[type=checkbox]:checked+span {
@@ -79,43 +79,43 @@ input[type=radio]+span {
     height: 1em;
     width: 1em;
     border-radius: 1em;
-    background-color: gray;
+    background-color: #5e5e5e;
 }
 
 input[type=radio]:checked+span {
     background-color: #409eff;
 }
 
-.gray00-bg {
+.silver00-bg {
     background-color: #000000
 }
-.gray10-bg {
+.silver10-bg {
      background-color: #1b1b1b
 }
-.gray20-bg {
+.silver20-bg {
      background-color: #303030
 }
-.gray30-bg {
+.silver30-bg {
      background-color: #474747
 }
-.gray40-bg {
+.silver40-bg {
      background-color: #5e5e5e
 }
-.gray50-bg {
+.silver50-bg {
      background-color: #777777
 }
-.gray60-bg {
+.silver60-bg {
      background-color: #919191
 }
-.gray70-bg {
+.silver70-bg {
      background-color: #ababab
 }
-.gray80-bg {
+.silver80-bg {
      background-color: #c6c6c6
 }
-.gray90-bg {
+.silver90-bg {
      background-color: #e2e2e2
 }
-.gray100-bg {
+.silver100-bg {
      background-color: #ffffff
 }
