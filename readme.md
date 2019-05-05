@@ -1,4 +1,4 @@
-# Silver
+# Silvery
 
 ## 色彩
 
