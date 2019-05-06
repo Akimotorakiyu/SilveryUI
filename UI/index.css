@@ -14,11 +14,19 @@ html {
 body {
   margin: 0em;
 }
-.button {
+div {
+  margin: 0.6em;
+}
+button {
   display: inline-block;
   text-align: center;
 }
-.h {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 900;
 }
 .header {
