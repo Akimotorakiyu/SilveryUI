@@ -1,5 +1,22 @@
 # Silvery
 
+## 开发
+
+```bash
+# 安装依赖
+npm install
+
+# 启动编译
+npm run style
+
+# 新建bash，启动服务器
+npm run browesersync
+
+# 浏览器访问 `${baseurl}`/ui
+
+```
+
+
 ## 色彩
 
 * 亮感层级
