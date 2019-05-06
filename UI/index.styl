@@ -112,6 +112,49 @@
     }
 }
 
+.tabs {
+    input,div {
+        display: none;
+    }
+
+    input[type=radio]+label {
+        display: inline-block;
+        background-color: #5e5e5e;
+    }
+
+    input[type=radio]:checked+label {
+        background-color: #409eff;
+    }
+
+    #tabs1:checked~#tabs1-content,
+    #tabs2:checked~#tabs2-content,
+    #tabs3:checked~#tabs3-content,
+    #tabs4:checked~#tabs4-content,
+    #tabs5:checked~#tabs5-content,
+    #tabs6:checked~#tabs6-content{
+        display: block
+    }
+}
+
+.collapse{
+    input,div {
+        display: none;
+    }
+
+    input[type=checkbox]+label {
+        display: block;
+        background-color: #40cc9e;
+    }
+
+    input[type=checkbox]:checked+label {
+        background-color: #409eff;
+    }
+
+    input[type=checkbox]:checked+label+div{
+        display: block
+    }
+}
+
 .silver00-bg {
     background-color: silver00;
 }
@@ -200,29 +243,3 @@
     color: silver100;
 }
 
-.tabs {
-
-    
-
-    input,div {
-        display: none;
-    }
-
-    input[type=radio]+label {
-        display: inline-block;
-        background-color: #5e5e5e;
-    }
-
-    input[type=radio]:checked+label {
-        background-color: #409eff;
-    }
-
-    #tabs1:checked~#tabs1-content,
-    #tabs2:checked~#tabs2-content,
-    #tabs3:checked~#tabs3-content,
-    #tabs4:checked~#tabs4-content,
-    #tabs5:checked~#tabs5-content,
-    #tabs6:checked~#tabs6-content{
-        display: block
-    }
-}
