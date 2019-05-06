@@ -90,6 +90,8 @@
     input[type=checkbox]+span {
         border-radius: 1em;
         background-color: #5e5e5e;
+        transition-duration: input-duration s;
+
     }
 
     input[type=checkbox]:checked+span {
@@ -99,16 +101,18 @@
     input[type=checkbox]+span::before {
         content: '';
         background-color: #fff;
-        width: 1em;
-        height: 1em;
+        width: 0.8em;
+        height: 0.8em;
+        margin:0.1em
+        // width: 1em;
+        // height: 1em;
         display: inline-block;
         border-radius: 0.5em;
         transition-duration: input-duration s;
-        transition-timing-function: ease;
     }
 
     input[type=checkbox]:checked+span:before {
-        transform: translateX(1em);
+        transform: translateX(1em)
     }
 }
 
