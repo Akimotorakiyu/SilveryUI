@@ -50,7 +50,7 @@
         display: inline-block;
         height: 1em;
         width: 1em;
-        transition-duration 0.5s
+        transition-duration: 0.5s;
         transition-timing-function: ease;
     }
 
@@ -103,12 +103,12 @@
         height: 1em;
         display: inline-block;
         border-radius: 0.5em;
-        transition-duration 0.5s
+        transition-duration: 0.5s;
         transition-timing-function: ease;
     }
 
     input[type=checkbox]:checked+span:before {
-        transform: translateX(1em)
+        transform: translateX(1em);
     }
 }
 
@@ -198,4 +198,31 @@
 
 .silver100 {
     color: silver100;
+}
+
+.tabs {
+
+    
+
+    input,div {
+        display: none;
+    }
+
+    input[type=radio]+label {
+        display: inline-block;
+        background-color: #5e5e5e;
+    }
+
+    input[type=radio]:checked+label {
+        background-color: #409eff;
+    }
+
+    #tabs1:checked~#tabs1-content,
+    #tabs2:checked~#tabs2-content,
+    #tabs3:checked~#tabs3-content,
+    #tabs4:checked~#tabs4-content,
+    #tabs5:checked~#tabs5-content,
+    #tabs6:checked~#tabs6-content{
+        display: block
+    }
 }
