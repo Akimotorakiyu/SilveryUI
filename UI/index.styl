@@ -136,6 +136,30 @@
     }
 }
 
+.tabs-2 {
+    input,div {
+        display: none;
+    }
+
+    div{
+        width:calc(100% - 7em)
+    }
+
+    input[type=radio]+label {
+        display: inline-block;
+        background-color: #5e5e5e;
+    }
+
+    input[type=radio]:checked+label {
+        background-color: #409eff;
+    }
+
+    input[type=radio]:checked+label+div{
+        display: block
+        position: absolute
+    }
+}
+
 .collapse{
     input,div {
         display: none;
