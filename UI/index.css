@@ -60,6 +60,8 @@ body {
   display: inline-block;
   height: 1em;
   width: 1em;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
 .label-input input[type=checkbox]+span {
   background-color: #5e5e5e;
