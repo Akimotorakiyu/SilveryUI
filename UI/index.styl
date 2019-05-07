@@ -55,7 +55,7 @@
     }
 
     input[type=checkbox]+span {
-        background-color: #ababab;
+        background-color: #777777;
     }
 
     input[type=checkbox]:checked+span {
@@ -64,7 +64,7 @@
 
     input[type=radio]+span {
         border-radius: 0.5em;
-        background-color: #ababab;
+        background-color: #777777;
     }
 
     input[type=radio]:checked+span {
@@ -89,9 +89,8 @@
 
     input[type=checkbox]+span {
         border-radius: 1em;
-        background-color: #ababab;
+        background-color: #777777;
         transition-duration: input-duration s;
-
     }
 
     input[type=checkbox]:checked+span {
@@ -103,7 +102,7 @@
         background-color: #fff;
         width: 0.8em;
         height: 0.8em;
-        margin:0.1em
+        margin: 0.1em;
         // width: 1em;
         // height: 1em;
         display: inline-block;
@@ -112,60 +111,57 @@
     }
 
     input[type=checkbox]:checked+span:before {
-        transform: translateX(1em)
+        transform: translateX(1em);
     }
 }
 
 .tabs {
-    input,div {
+    input, div {
         display: none;
     }
 
     input[type=radio]+label {
         display: inline-block;
-        background-color: #ababab;
+        background-color: #40cc9e;
     }
 
     input[type=radio]:checked+label {
-        background-color: #409eff;
+        background-color: #a4da89;
     }
 
-    #tabs1:checked~#tabs1-content,
-    #tabs2:checked~#tabs2-content,
-    #tabs3:checked~#tabs3-content,
-    #tabs4:checked~#tabs4-content,
-    #tabs5:checked~#tabs5-content,
-    #tabs6:checked~#tabs6-content{
-        display: block
+    #tabs1:checked~#tabs1-content, #tabs2:checked~#tabs2-content, #tabs3:checked~#tabs3-content, #tabs4:checked~#tabs4-content, #tabs5:checked~#tabs5-content, #tabs6:checked~#tabs6-content {
+        background-color: #a4da89;
+        display: block;
     }
 }
 
 .tabs-2 {
-    input,div {
+    input, div {
         display: none;
     }
 
-    div{
-        width:calc(100% - 7em)
+    div {
+        width: calc(100% - 7em);
     }
 
     input[type=radio]+label {
         display: inline-block;
-        background-color: #ababab;
+        background-color: #40cc9e;
     }
 
     input[type=radio]:checked+label {
-        background-color: #409eff;
+        background-color: #a4da89;
     }
 
-    input[type=radio]:checked+label+div{
-        display: block
-        position: absolute
+    input[type=radio]:checked+label+div {
+        display: block;
+        background-color: #a4da89;
+        position: absolute;
     }
 }
 
-.collapse{
-    input,div {
+.collapse {
+    input, div {
         display: none;
     }
 
@@ -175,11 +171,11 @@
     }
 
     input[type=checkbox]:checked+label {
-        background-color: #409eff;
+        background-color: #a4da89;
     }
 
-    input[type=checkbox]:checked+label+div{
-        display: block
+    input[type=checkbox]:checked+label+div {
+        display: block;
     }
 }
 
@@ -270,4 +266,3 @@
 .silver100 {
     color: silver100;
 }
-

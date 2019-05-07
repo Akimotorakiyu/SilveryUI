@@ -90,14 +90,14 @@ h6 {
   transition-timing-function: ease;
 }
 .label-input input[type=checkbox]+span {
-  background-color: #ababab;
+  background-color: #777;
 }
 .label-input input[type=checkbox]:checked+span {
   background-color: #409eff;
 }
 .label-input input[type=radio]+span {
   border-radius: 0.5em;
-  background-color: #ababab;
+  background-color: #777;
 }
 .label-input input[type=radio]:checked+span {
   background-color: #409eff;
@@ -118,7 +118,7 @@ h6 {
 }
 .label-input-switch input[type=checkbox]+span {
   border-radius: 1em;
-  background-color: #ababab;
+  background-color: #777;
   transition-duration: 0.2s;
 }
 .label-input-switch input[type=checkbox]:checked+span {
@@ -143,10 +143,10 @@ h6 {
 }
 .tabs input[type=radio]+label {
   display: inline-block;
-  background-color: #ababab;
+  background-color: #40cc9e;
 }
 .tabs input[type=radio]:checked+label {
-  background-color: #409eff;
+  background-color: #a4da89;
 }
 .tabs #tabs1:checked~#tabs1-content,
 .tabs #tabs2:checked~#tabs2-content,
@@ -154,6 +154,7 @@ h6 {
 .tabs #tabs4:checked~#tabs4-content,
 .tabs #tabs5:checked~#tabs5-content,
 .tabs #tabs6:checked~#tabs6-content {
+  background-color: #a4da89;
   display: block;
 }
 .tabs-2 input,
@@ -165,13 +166,14 @@ h6 {
 }
 .tabs-2 input[type=radio]+label {
   display: inline-block;
-  background-color: #ababab;
+  background-color: #40cc9e;
 }
 .tabs-2 input[type=radio]:checked+label {
-  background-color: #409eff;
+  background-color: #a4da89;
 }
 .tabs-2 input[type=radio]:checked+label+div {
   display: block;
+  background-color: #a4da89;
   position: absolute;
 }
 .collapse input,
@@ -183,7 +185,7 @@ h6 {
   background-color: #40cc9e;
 }
 .collapse input[type=checkbox]:checked+label {
-  background-color: #409eff;
+  background-color: #a4da89;
 }
 .collapse input[type=checkbox]:checked+label+div {
   display: block;
