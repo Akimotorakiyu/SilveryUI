@@ -47,6 +47,24 @@ h5,
 h6 {
   font-weight: 900;
 }
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 27.857618025475972px;
+}
+h3 {
+  font-size: 24.25146506416637px;
+}
+h4 {
+  font-size: 21.112126572366307px;
+}
+h5 {
+  font-size: 18.37917367995256px;
+}
+h6 {
+  font-size: 16px;
+}
 .header {
   height: 2em;
   line-height: 2em;
