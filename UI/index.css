@@ -190,6 +190,71 @@ h6 {
 .collapse input[type=checkbox]:checked+label+div {
   display: block;
 }
+.select-check input[type=checkbox] {
+  display: none;
+}
+.select-check label {
+  display: inline-block;
+}
+.select-check label span {
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.select-check input[type=checkbox]+ label > span {
+  border-radius: 0.5em;
+  background-color: #777;
+}
+.select-check input[type=checkbox]+ label + ul {
+  display: none;
+  position: absolute;
+}
+.select-check input[type=checkbox]:checked + label >span {
+  background-color: #409eff;
+}
+.select-check input[type=checkbox]:checked + label + ul {
+  display: block;
+}
+.select-check ul {
+  background-color: #fff;
+  list-style: none;
+}
+.select-check ul li {
+  box-shadow: none;
+}
+.select-check ul li label {
+  display: inline-block;
+}
+.select-check ul li label input[type=checkbox],
+.select-check ul li label input[type=radio] {
+  display: none;
+}
+.select-check ul li label input+span {
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+.select-check ul li label input[type=checkbox]+span {
+  background-color: #777;
+}
+.select-check ul li label input[type=checkbox]:checked+span {
+  background-color: #409eff;
+}
+.select-check ul li label input[type=radio]+span {
+  border-radius: 0.5em;
+  background-color: #777;
+}
+.select-check ul li label input[type=radio]:checked+span {
+  background-color: #409eff;
+}
 .silver00-bg {
   background-color: #000;
 }
