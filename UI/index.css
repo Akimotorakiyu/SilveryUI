@@ -17,6 +17,7 @@ span {
 span {
   font-size: inherit;
   vertical-align: bottom;
+  box-shadow: none;
 }
 body {
   margin: 0em;
