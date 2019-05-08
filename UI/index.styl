@@ -276,12 +276,11 @@
             border-radius: 0.5em;
             background-color: #777777;
         }
-     
     }
-    
-    label:focus-within{
-        span{
-             background-color: #409eff;
+
+    label:focus-within {
+        span {
+            background-color: #409eff;
         }
     }
 
@@ -351,9 +350,106 @@
         }
     }
 
-    div:focus-within ~ label{
-         span{
-             background-color: #409eff;
+    div:focus-within ~ label {
+        span {
+            background-color: #409eff;
+        }
+    }
+}
+
+.select-check-5 {
+    label {
+        display: inline-block;
+
+        div {
+            display: inline-block;
+            margin: 0em;
+            padding: 0em;
+            box-shadow: none;
+            position: absolute;
+
+            ul {
+                display: none;
+                background-color: white;
+                list-style: none;
+
+                li {
+                    box-shadow: none;
+
+                    label {
+                        display: inline-block;
+
+                        input[type=checkbox], input[type=radio] {
+                            display: none;
+                        }
+
+                        input+span {
+                            margin: 0em;
+                            padding: 0em;
+                            display: inline-block;
+                            height: 1em;
+                            width: 1em;
+                            transition-duration: input-duration s;
+                            transition-timing-function: ease;
+                        }
+
+                        input[type=checkbox]+span {
+                            border-radius: 0.3em;
+                            background-color: #777777;
+                        }
+
+                        input[type=checkbox]:checked+span {
+                            background-color: #409eff;
+                        }
+
+                        input[type=radio]+span {
+                            border-radius: 0.5em;
+                            background-color: #777777;
+                        }
+
+                        input[type=radio]:checked+span {
+                            background-color: #409eff;
+                        }
+                    }
+                }
+            }
+        }
+
+        div:focus-within + label {
+            span {
+                background-color: #409eff;
+            }
+            
+        }
+
+        div:focus-within {
+            ul {
+                display: block;
+            }
+        }
+
+        span {
+            margin: 0em;
+            padding: 0em;
+            display: inline-block;
+            height: 1em;
+            width: 1em;
+            transition-duration: input-duration s;
+            transition-timing-function: ease;
+            border-radius: 0.5em;
+            background-color: #777777;
+        }
+    }
+
+    label:focus-within {
+        span {
+            background-color: #409eff;
+        }
+
+        div {
+            ul {
+                display: block;
+            }
         }
     }
 }
