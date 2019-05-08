@@ -1,6 +1,10 @@
 # Silvery
 
-# 预览
+## 状态： Alpha ，早期测试
+
+Alpha ，早期测试
+
+## 预览
 
 [预览 https://silverleaves.github.io/Silvery/UI/](https://silverleaves.github.io/Silvery/UI/)
 
