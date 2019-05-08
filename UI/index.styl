@@ -219,6 +219,7 @@
     ul {
         background-color: white;
         list-style: none;
+        z-index 1000
 
         li {
             box-shadow: none;
@@ -262,6 +263,8 @@
 }
 
 .select-check-4 {
+    position: relative;
+
     label {
         display: inline-block;
 
@@ -296,6 +299,9 @@
         padding: 0em;
         box-shadow: none;
         position: absolute;
+        top: 5em;
+        left: 0em;
+        z-index: 1000;
 
         ul {
             display: none;
@@ -360,6 +366,7 @@
 .select-check-5 {
     label {
         display: inline-block;
+        position: relative;
 
         div {
             display: inline-block;
@@ -367,6 +374,9 @@
             padding: 0em;
             box-shadow: none;
             position: absolute;
+            top: 4em;
+            left: 0em;
+            z-index: 1000;
 
             ul {
                 display: none;
@@ -419,7 +429,6 @@
             span {
                 background-color: #409eff;
             }
-            
         }
 
         div:focus-within {

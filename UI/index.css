@@ -240,6 +240,7 @@ h6 {
 .select-check ul {
   background-color: #fff;
   list-style: none;
+  z-index: 1000;
 }
 .select-check ul li {
   box-shadow: none;
@@ -273,6 +274,9 @@ h6 {
 .select-check ul li label input[type=radio]:checked+span {
   background-color: #409eff;
 }
+.select-check-4 {
+  position: relative;
+}
 .select-check-4 label {
   display: inline-block;
 }
@@ -299,6 +303,9 @@ h6 {
   padding: 0em;
   box-shadow: none;
   position: absolute;
+  top: 5em;
+  left: 0em;
+  z-index: 1000;
 }
 .select-check-4 div ul {
   display: none;
@@ -346,6 +353,7 @@ h6 {
 }
 .select-check-5 label {
   display: inline-block;
+  position: relative;
 }
 .select-check-5 label div {
   display: inline-block;
@@ -353,6 +361,9 @@ h6 {
   padding: 0em;
   box-shadow: none;
   position: absolute;
+  top: 4em;
+  left: 0em;
+  z-index: 1000;
 }
 .select-check-5 label div ul {
   display: none;
