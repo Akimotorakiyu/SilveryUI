@@ -273,130 +273,6 @@ h6 {
 .select-check ul li label input[type=radio]:checked+span {
   background-color: #409eff;
 }
-.select-check-2 label {
-  display: inline-block;
-}
-.select-check-2 label span {
-  margin: 0em;
-  padding: 0em;
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
-}
-.select-check-2 input[type=text]+ label > span {
-  border-radius: 0.5em;
-  background-color: #777;
-}
-.select-check-2 input[type=text]+ label + ul {
-  display: none;
-  position: absolute;
-}
-.select-check-2 input[type=text]:focus + label >span {
-  background-color: #409eff;
-}
-.select-check-2 input[type=text]:focus + label + ul {
-  display: block;
-}
-.select-check-2 ul {
-  background-color: #fff;
-  list-style: none;
-}
-.select-check-2 ul li {
-  box-shadow: none;
-}
-.select-check-2 ul li label {
-  display: inline-block;
-}
-.select-check-2 ul li label input[type=checkbox],
-.select-check-2 ul li label input[type=radio] {
-  display: none;
-}
-.select-check-2 ul li label input+span {
-  margin: 0em;
-  padding: 0em;
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
-}
-.select-check-2 ul li label input[type=checkbox]+span {
-  background-color: #777;
-}
-.select-check-2 ul li label input[type=checkbox]:checked+span {
-  background-color: #409eff;
-}
-.select-check-2 ul li label input[type=radio]+span {
-  border-radius: 0.5em;
-  background-color: #777;
-}
-.select-check-2 ul li label input[type=radio]:checked+span {
-  background-color: #409eff;
-}
-.select-check-3 label {
-  display: inline-block;
-}
-.select-check-3 label span {
-  margin: 0em;
-  padding: 0em;
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
-}
-.select-check-3 input[type=text]+ label > span {
-  border-radius: 0.5em;
-  background-color: #777;
-}
-.select-check-3 input[type=text]+ label + ul {
-  display: none;
-  position: absolute;
-}
-.select-check-3 button ul {
-  display: none;
-}
-.select-check-3 button ul {
-  background-color: #fff;
-  list-style: none;
-}
-.select-check-3 button ul li {
-  box-shadow: none;
-}
-.select-check-3 button ul li label {
-  display: inline-block;
-}
-.select-check-3 button ul li label input[type=checkbox],
-.select-check-3 button ul li label input[type=radio] {
-  display: none;
-}
-.select-check-3 button ul li label input+span {
-  margin: 0em;
-  padding: 0em;
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
-}
-.select-check-3 button ul li label input[type=checkbox]+span {
-  background-color: #777;
-}
-.select-check-3 button ul li label input[type=checkbox]:checked+span {
-  background-color: #409eff;
-}
-.select-check-3 button ul li label input[type=radio]+span {
-  border-radius: 0.5em;
-  background-color: #777;
-}
-.select-check-3 button ul li label input[type=radio]:checked+span {
-  background-color: #409eff;
-}
-.select-check-3 button:focus ul {
-  display: block;
-}
 .select-check-4 label {
   display: inline-block;
 }
@@ -408,6 +284,11 @@ h6 {
   width: 1em;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+  border-radius: 0.5em;
+  background-color: #777;
+}
+.select-check-4 label:focus-within span {
+  background-color: #409eff;
 }
 .select-check-4 label:focus-within+div ul {
   display: block;
@@ -444,6 +325,7 @@ h6 {
   transition-timing-function: ease;
 }
 .select-check-4 div ul li label input[type=checkbox]+span {
+  border-radius: 0.3em;
   background-color: #777;
 }
 .select-check-4 div ul li label input[type=checkbox]:checked+span {
@@ -458,6 +340,9 @@ h6 {
 }
 .select-check-4 div:focus-within ul {
   display: block;
+}
+.select-check-4 div:focus-within ~ label span {
+  background-color: #409eff;
 }
 .silver00-bg {
   background-color: #000;
