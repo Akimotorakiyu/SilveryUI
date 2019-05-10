@@ -40,8 +40,8 @@ h4,
 h5,
 h6 {
   box-shadow: none;
-  margin: inherit;
-  padding: inherit;
+  margin-left: inherit;
+  padding-right: inherit;
 }
 h1,
 h2,
