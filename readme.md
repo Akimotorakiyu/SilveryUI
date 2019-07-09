@@ -78,3 +78,7 @@ npm run browesersync
 ### 指数缩放
 
 以基础尺寸为基础进行等比缩放，即指数缩放
+
+### 灵感keyBoard
+
+![](./keyboard.svg)
