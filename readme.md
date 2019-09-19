@@ -6,7 +6,7 @@ Alpha ，早期测试
 
 ## 预览
 
-[预览 https://silverleaves.github.io/Silvery/UI/](https://silverleaves.github.io/Silvery/UI/)
+[预览 https://akimotorakiyu.github.io/SilveryUI/UI/](https://akimotorakiyu.github.io/SilveryUI/UI/)
 
 ## 开发
 
