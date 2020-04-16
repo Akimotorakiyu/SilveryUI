@@ -4,9 +4,9 @@
   "description": "* 亮感层级\r * 鲜明对比",
   "main": "index.js",
   "scripts": {
-    "test": "npm run browesersync && npm run style",
-    "browesersync":"browser-sync start --server --files '**/*.css, **/*.html'",
-    "style":"stylus -w UI/index.styl -o UI/index.css "
+    "test": "concurrently \"npm run browesersync\"  \"npm run style\"",
+    "browesersync": "browser-sync start --server --files '**/*.css, **/*.html'",
+    "style": "stylus -w UI/index.styl -o UI/index.css "
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/SilverLeaves/silver#readme",
   "devDependencies": {
     "browser-sync": "^2.26.5",
+    "concurrently": "^5.1.0",
     "stylus": "^0.54.5"
   }
 }
